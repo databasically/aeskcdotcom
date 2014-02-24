@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>AES KC || Associated Equipment Sales || Products - Air Handling</title>
+<style media="screen" type="text/css">@import url(css/reset.css);</style> <!-- Reset all inherent calues  -->
+<style media="screen" type="text/css">@import url(css/global.css);</style>
+<script language="javascript" type="text/javascript" src="includes/preload_products.js"></script>
+<script type="text/javascript" language="javascript" src="includes/rollover.js"></script>
+<script type="text/javascript" language="javascript" src="includes/jquery-1.4.min.js"></script>
+<script type="text/javascript" language="javascript" src="includes/jquery.cycle.lite.js?v1.0"></script>	
+<script type="text/javascript" language="javascript">
+$(function() {
+    $('#slideshow1').cycle({  
+    timeout:  5000,
+	speed: 1500
+});
+});
+
+</script>
+
+<script language="javascript" type="text/javascript">
+$(document).ready(function() {
+	$('.pageCopy').find('dd').hide().end().find('dt').click(function() {
+		$(this).next().slideToggle("normal");
+	});
+});
+</script>
+</head>
+
+<body>
+
+	<div id="container">	
+    	<div id="slideshow1"> 
+                <img src="images/products1.jpg" alt="" /> 
+                <img src="images/products8.jpg" alt="" /> 
+                <img src="images/products4.jpg" alt="" />
+                <img src="images/products2.jpg" alt="" />
+                <img src="images/products10.jpg" alt="" />
+                <img src="images/products7.jpg" alt="" /> 
+                <img src="images/products5.jpg" alt="" />
+                <img src="images/products3.jpg" alt="" />                
+                <img src="images/products9.jpg" alt="" /> 
+         </div>
+         	
+        <div id="sh_prod"><h2>Products</h2></div>  
+        
+        <div class="pageCopy">
+        	
+            <h2>Air Handling</h2>
+            <span class="subHead">Click on the company name for further details.</span><br/>
+        
+        	<dl>
+            	<dt>Climate Master</dt>
+                <dd>Climate Master has the highest efficiency water-source heat pumps on the planet, the Tranquility 27&reg; series raises the bar for water-source heat pump efficiencies, features and application flexibility. Not only does the Tranquility 27&reg; series far exceed ASHRAE 90.1 efficiencies, but they also feature EarthPure&reg; HFC-410A zero ozone depletion refrigerant, making any of the Tranquility 27&reg; series units an extremely environmentally friendly option.<br/>
+                <a href="http://www.climatemaster.com">http://www.climatemaster.com</a> <img src="images/link_arrow2.png" alt="" />
+                </dd>
+                
+                <dt>USA Coil and Air</dt>
+                <dd>USA Coil and Air builds standard and built-to-order commercial and industrial air conditioning and heating equipment, including HVAC coils, fan coils, air handlers and space coolers.<br/>
+                <a href="http://www.usacoil.com">http://www.usacoil.com</a> <img src="images/link_arrow2.png" alt="" />
+                </dd>
+                
+                <dt>DataAire</dt>
+                <dd>DataAire has created an integrated approach for the precise control of sensitive equipment room environments. By combining air-processing functions, close-tolerance parameters can be easily maintained. Fully programmable, and computer monitored, Data Aire systems can provide peace-of-mind, and the assurance that sensitive equipment is receiving the best protection available.<br/>
+                <a href="http://www.dataaire.com">http://www.dataaire.com</a> <img src="images/link_arrow2.png" alt="" />
+                </dd>            
+            </dl>
+                
+        </div>         
+        
+        <div id="nav"><?php include('nav.html'); ?></div>
+        <div id="footer"><?php include('includes/footer.html'); ?></div>
+    
+    </div>
+
+</body>
+</html>

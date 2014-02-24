@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>AES KC || Associated Equipment Sales || Products</title>
+<style media="screen" type="text/css">@import url(css/reset.css);</style> <!-- Reset all inherent calues  -->
+<style media="screen" type="text/css">@import url(css/global.css);</style>
+<script language="javascript" type="text/javascript" src="includes/preload_products.js"></script>
+<script type="text/javascript" language="javascript" src="includes/rollover.js"></script>
+<script type="text/javascript" language="javascript" src="includes/jquery-1.2.6.js"></script>		<!-- homepage image rotator  -->
+<script type="text/javascript" language="javascript" src="includes/jquery.cycle.lite.js?v1.0"></script>	<!-- homepage image rotator  -->
+<script type="text/javascript" language="javascript">	<!-- homepage image rotator  -->
+$(function() {
+    $('#slideshow1').cycle({  
+    timeout:  5000,
+	speed: 1500
+});
+});
+
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="slideshow1"> 
+                <img src="images/products1.jpg" alt="" /> 
+                <img src="images/products8.jpg" alt="" /> 
+                <img src="images/products4.jpg" alt="" />
+                <img src="images/products2.jpg" alt="" />
+                <img src="images/products10.jpg" alt="" />
+                <img src="images/products7.jpg" alt="" /> 
+                <img src="images/products5.jpg" alt="" />
+                <img src="images/products3.jpg" alt="" />                
+                <img src="images/products9.jpg" alt="" /> 
+         </div>
+         <div id="sh_prod"><h2>Products</h2></div>   
+         <div id="splash">                     
+             <div id="desc2">AES provides clients with “best choice” products based on the demands of energy savings, low maintenance and operating cost, sustainability, long life and other critical factors.  Our sales staff provides support to engineers, contractors and end users to ensure that great projects are developed for our community.  With our diverse offering of products, we are often able to be the single point responsibility for equipment a great benefit to clients as the interface of the entire project rests with one company; ours.
+             <center><p style="font-weight: bold;" class="mt10">To view a list of our products by type, click the areas below.</p></center>
+             <div class="link_line v12">
+             <a href="products_boilers.php">Boilers</a>&nbsp;&bull;&nbsp;
+             <a href="products_burners.php">Burners</a>&nbsp;&bull;&nbsp;
+             <a href="products_pumps.php">Pumps</a>&nbsp;&bull;&nbsp;
+             <a href="products_airhandling.php">Air Handling</a><br/>
+             <a href="products_venting.php">Venting</a>&nbsp;&bull;&nbsp;
+             <a href="products_cooling.php">Cooling Equipment</a>&nbsp;&bull;&nbsp;
+             <a href="products_other.php">Other Products</a>
+             </div>
+             
+             <?php include('desc_tag.html'); ?>
+             </div>
+         </div>
+        <div id="nav"><?php include('nav.html'); ?></div>
+        <div id="footer"><?php include('includes/footer.html'); ?></div>
+    
+    </div>
+
+</body>
+</html>

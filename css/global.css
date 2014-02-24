@@ -1,0 +1,390 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #323c59;
+	font: 11px arial;
+	/*color: #525252;*/
+	color: #373737;
+}
+
+#container {
+	position: absolute;
+	width: 900px;
+	left: 50%;
+	margin-left: -450px;
+	top: 50px;
+	height: 550px;	
+}
+
+#slideshow1 { position: absolute; z-index: 0; }
+#slideshow1 IMG { width: 900px; height: 550px; }
+
+#splash {
+	position: absolute;
+	left: 0;
+	top: 55%;
+	background:url(../images/bkgd.png) top right no-repeat;
+	overflow: hidden;
+	width: 492px;
+	min-height: 150px;
+	padding-top: 5px;
+}
+
+#splash #desc { float: left; width: 240px; }
+#splash #desc2 { float: left; width: 465px; margin: 0 5px 5px 5px; font-size: 13px; }
+#splash #desc2 a { color: #804242;	 text-decoration: none; font-weight: bold; }
+#splash #desc2 a:hover { color: #3D5256; }
+
+#splash #desc2 hr {
+	height: 1px;
+	border: 0;
+	width: 50%;
+	color: #63748b;
+	background-color: #63748b;
+	margin-left: -5px;
+	position: absolute;
+	top: 125px;
+	left: 5px;
+}
+
+#splash #desc2 #tag {
+	position: absolute;
+	bottom: 0;
+	/*top: 140px; 
+	left: 5px;*/
+	border-top: solid 1px #63748b;
+	padding-top: 3px;
+	margin: 3px 0 5px 0;
+}
+
+#splash #desc .emphasis {
+	text-align: center;
+	font-weight: bold;	
+}
+
+#logo_tag {
+	float: left;
+	width: 227px;
+	/*height: 173px;*/
+	margin-right: 5px;
+}
+
+#logo_tag IMG.last {
+	margin-bottom: 10px;
+}
+
+#footer {
+	clear: both;
+	height: 24px;
+	border-top: solid 1px #ba503f;
+	background: url(../images/bg_footer.jpg) repeat-x;
+	color: #acacac;
+	line-height: 25px;
+	padding: 0 5px;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	width: 890px;
+}
+
+#footer .big { font-size: 14px; font-weight: bold; float: left; }
+#footer .small { font-size: 11px; float: right; }
+
+
+/* NAV ELEMENTS */
+#nav {
+	float: right;
+	width: 209px;
+	height: 525px;
+	position: absolute;
+	z-index: 2;
+	right: 0;
+	background: url(../images/nav_bg.png);
+}
+#nav IMG { float: right; }
+
+
+/* INDIVIDUAL PAGE CODE */
+
+h2 { font: 30px arial; font-weight: 500; margin: 3px 0 0 145px;  color: #c9c5c1;}
+
+/* PAGE:	 company info, downloads */
+#sh_ci, #sh_dl {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	background: url(../images/sh_blue.png);
+	width: 423px;
+	height: 79px;
+	z-index: 100;
+}
+
+/* PAGE:	 manufacturers, helpful hints */
+#sh_manu, #sh_hh {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	background: url(../images/sh_red.png);
+	width: 423px;
+	height: 79px;
+	z-index: 100;
+}
+
+/* PAGE:	 products, projects */
+#sh_prod, #sh_proj {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	background: url(../images/sh_green.png);
+	width: 423px;
+	height: 79px;
+	z-index: 100;
+}
+
+/* PAGE:	 contact, home */
+#sh_contact, #sh_train, #sh_home {
+	position: absolute;
+	left: 0;
+	top: 20px;
+	background: url(../images/sh_cream.png);
+	width: 423px;
+	height: 79px;
+	z-index: 100;
+}
+
+#sh_contact h2, #sh_train h2 {
+	color: #666;
+}
+
+/* PAGE: products, contact */
+.link_line {
+	text-align: center;
+	width: 475px;
+	margin-top: 5px;
+	z-index: 100;
+}
+
+.link_line a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #3D5256;
+	margin: 0 3px;
+	font-size: 16px;
+}
+
+.link_line a:hover {
+	color: #804242;
+}
+
+.pageCopy {
+	position: absolute;
+	width: 600px;
+	max-height: 380px;
+	background: url(../images/bkgd.png) top right no-repeat;
+	color: #666;
+	padding: 15px 15px 15px 15px;
+	margin-top: 115px;
+	float: left;
+	font-size: 13px;
+}
+
+.pageCopy h2 {
+	font-size: 25px;
+	color: #666;
+	margin: 0;
+	border-bottom: double 1px #666;
+	border-width: medium;
+	width: 30%;
+}
+
+.pageCopy dl {
+	max-height: 362px;
+	overflow: auto;
+	display: block;
+	width: 540px;
+}
+
+.pageCopy dl dt {
+	font: bold 14px arial;
+	margin: 10px 0 0 10px;
+	padding: 0;
+	cursor: pointer;
+	width: 500px;
+}
+
+.pageCopy dl dd {
+	padding: 0 0 0 10px;	
+	margin: 0;
+	width: 500px;
+}
+
+.pageCopy dl dt.column {
+	font: bold 14px arial;
+	margin: 10px 0 0 10px;
+	padding: 0;
+	cursor: pointer;
+	width: 350px;
+}
+
+.pageCopy dl dd.column {
+	padding: 0 0 0 10px;	
+	margin: 0;
+	width: 350px;
+}
+
+.pageCopy a {
+	color: #804242;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.pageCopy a:hover {
+	color: #804242;
+	text-decoration: underline;
+}
+
+.pageCopy .map {
+	float: right;
+	margin: 0 55px 0 10px;
+	border: solid 1px #202F35;	
+}
+.pageCopy ul {
+	list-style-type: none;	
+	float: left;
+	margin-right: 50px;
+}
+
+.pageCopy ul li {
+	margin: 0 0 15px 15px;
+}
+
+.pageCopy h3, .pageCopy ul li h3 {
+	font: bold 14px arial;
+	margin-bottom: 0;
+}
+
+.pageCopy .staffShot {
+	float: right;
+	border: solid 1px #202F35;
+	margin: 0 35px 3px 3px;
+}
+.pageCopy .subHead {
+	font: bold 16px arial;
+	/*color: #3D5256;*/
+	color: #804242;
+}
+
+.pageCopy .bio {
+	width: 540px;
+	overflow: auto;
+	max-height: 272px;
+	padding-top: 12px;
+}
+
+.pageCopy IMG.logo {
+	display: block;
+	float: left;
+}
+
+.pageCopy div.manu {
+	overflow: auto;
+	max-height: 382px;
+	width: 540px;
+}
+
+.pageCopy div.manu div {
+	clear: left;
+	font-weight: bold;
+}
+
+.pageCopy .manu div IMG {
+	margin: 0 10px 10px 0;
+	border: solid 1px #666;
+}
+
+.pageCopy .manu div p {
+	padding-top: 17px;
+}
+
+
+/***************** HELPER CLASSES *****************/
+
+.fltright {
+	float:right;
+}
+.fltleft {
+	float:left;
+}
+.alignmid {
+	text-align:center;
+}
+.pt10 {
+	padding-top:10px;
+}
+.pt18 {
+	padding-top:18px;
+}
+.pt25 {
+	padding-top:25px;
+}
+.pt90 {
+	padding-top:90px;
+}
+.mb12 {
+	margin-bottom:12px;
+}
+.mt10 {
+	margin-top:10px;
+}
+.mt20 {
+	margin-top:20px;
+}
+.ml-20 {
+	margin-left:-20px;
+}
+.v6 {
+	padding-bottom:6px;
+}
+.v12 {
+	padding-bottom:12px;
+}
+.v20 {
+	padding-bottom:20px;
+}
+.v30 {
+	padding-bottom:30px;
+}
+.v50 {
+	padding-bottom:50px;
+}
+.ti30 {
+	text-indent:30px;
+}
+.lh25 {
+	line-height:25px;
+}
+.pl10 {
+	padding-left:10px;
+}
+.pl12 {
+	padding-left:12px;
+}
+.pl20 {
+	padding-left:20px;
+}
+.pr6 {
+	padding-right:6px;
+}
+.pr15 {
+	padding-right:15px;
+}
+.pr20 {
+	padding-right:20px;
+}
+.pr25 {
+	padding-right:25px;
+}
+.pr30 {
+	padding-right:30px;
+}

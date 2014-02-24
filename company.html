@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>AES KC || Associated Equipment Sales || Company Info</title>
+<style media="screen" type="text/css">@import url(css/reset.css);</style> <!-- Reset all inherent calues  -->
+<style media="screen" type="text/css">@import url(css/global.css);</style>
+<script language="javascript" type="text/javascript" src="includes/preload_company.js"></script>
+<script type="text/javascript" language="javascript" src="includes/rollover.js"></script>
+<script type="text/javascript" language="javascript" src="includes/jquery-1.2.6.js"></script>		<!-- homepage image rotator  -->
+<script type="text/javascript" language="javascript" src="includes/jquery.cycle.lite.js?v1.0"></script>	<!-- homepage image rotator  -->
+<script type="text/javascript" language="javascript">	<!-- homepage image rotator  -->
+$(function() {
+    $('#slideshow1').cycle({  
+    timeout:  5000,
+	speed: 1500
+});
+});
+
+</script>
+</head>
+
+<body>
+
+	<div id="container">
+		<div id="slideshow1"> 
+                <img src="images/company1.jpg" alt="" />
+                <img src="images/company2.jpg" alt="" />
+                <img src="images/company3.jpg" alt="" />
+                <img src="images/company4.jpg" alt="" />
+                <img src="images/company5.jpg" alt="" />
+                <img src="images/company6.jpg" alt="" />
+                <img src="images/company8.jpg" alt="" />
+                <img src="images/company9.jpg" alt="" />
+                <img src="images/company10.jpg" alt="" />                 
+         </div>
+         <div id="sh_ci"><h2>Company Info</h2></div>   
+         <div id="splash">                     
+             <div id="desc2">Our goal is to be ……..  The company has no formal employee titles as each employee’s “title” is customer service.  We work in small competitive and fun teams to achieve the best results for our clients.  Our team names are Team ADOST (just ask), Team Tattoo, Team All Timers, Team West, Team TKO, and Team Fox.
+             <br/><br/>
+             Our  philosophy is to “Work Hard and Play Hard”.
+			 <?php include('desc_tag.html'); ?>
+             </div>
+         </div>
+        <div id="nav"><?php include('nav.html'); ?></div>
+        <div id="footer"><?php include('includes/footer.html'); ?></div>
+    
+    </div>
+
+</body>
+</html>
